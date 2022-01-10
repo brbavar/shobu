@@ -4,6 +4,7 @@ The rules can be found <a href='https://www.ultraboardgames.com/shobu/game-rules
 # How the Game Works
 
 <ul>
+  <li>Click <a href='https://brbavar.github.io/shobu/'>here</a> to play!</li>
   <li>For the time being, you can only play against someone sitting next to you. There are no CPU or online opponents.</li>
 </ul>
 
