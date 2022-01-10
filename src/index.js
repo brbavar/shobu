@@ -337,7 +337,7 @@ function Game(props) {
     statusColor = winner
   } 
   else {
-    status = 'Current player: '
+    status = 'Next player: '
     statusColor = whiteIsNext ? 'white' : 'black'
   }
 
