@@ -3,7 +3,9 @@ The rules can be found <a href='https://www.ultraboardgames.com/shobu/game-rules
 
 # How the Game Works
 
-For the time being, you can only play with someone sitting next to you. There are no CPU or online opponents.
+<ul>
+  <li>For the time being, you can only play with someone sitting next to you. There are no CPU or online opponents.</li>
+</ul>
 
 # How to Play Offline
 If you'd like to download the app to play offline, follow these instructions. 
