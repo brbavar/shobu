@@ -1,2 +1,26 @@
 # Rules of Shōbu
 The rules can be found <a href='https://www.ultraboardgames.com/shobu/game-rules.php'>here</a>.
+
+# How to Play Offline
+If you'd like to download the app to play offline, follow these instructions. 
+
+<ol>
+  <li><a href='https://nodejs.dev/learn/how-to-install-nodejs'>Install</a> a recent version of Node.js if you haven't yet.</li> 
+  <li>Navigate to the directory where you want to store the Shōbu app.</li>
+  <li>Run:
+    <p></p>
+    
+```
+npm install create-react-app
+npx create-react-app shobu
+rm shobu/src/*
+git clone https://github.com/brbavar/shobu-src.git
+mv shobu-src/* shobu/src
+rm -r shobu-src
+cd shobu/src
+npm start
+```
+
+  </li>
+  <li>If the app doesn't appear automatically, visit <a href='http://localhost:3000'>this address</a> in your browser of choice.</li>
+</ol>
