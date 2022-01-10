@@ -1,7 +1,7 @@
 # How the Game Works
 
 <ul>
-  <li>The rules of Shōbu are explained in <a href='https://www.youtube.com/watch?v=1qlwBgHXCyg&t=278s'>this video</a>. If you'd prefer to read about how the game is played, check out <a href='http://bronelgram.net/wp-content/uploads/2020/08/Regole-Shobu-2.pdf'>this PDF</a>.</li>
+  <li>The rules of Shōbu are quickly explained in <a href='https://www.youtube.com/watch?v=1qlwBgHXCyg&t=278s'>this video</a>. If you'd prefer to read about how the game is played, check out <a href='http://bronelgram.net/wp-content/uploads/2020/08/Regole-Shobu-2.pdf'>this PDF</a>.</li>
   <li>Once you understand the rules, <a href='https://brbavar.github.io/shobu/'>click</a> to start playing.</li>
   <li>For the time being, you can only play against someone sitting next to you. There are no CPU or online opponents.</li>
 </ul>
