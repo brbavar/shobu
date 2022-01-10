@@ -7,7 +7,7 @@
 </ul>
 
 # How to Play Offline
-If you'd like to download the app to play offline, follow these instructions. 
+If you'd like to download the app on your computer to play offline, follow these instructions. 
 
 <ol>
   <li><a href='https://nodejs.dev/learn/how-to-install-nodejs'>Install</a> a recent version of Node.js if you haven't yet.</li> 
