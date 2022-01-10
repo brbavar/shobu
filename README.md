@@ -1,10 +1,8 @@
-# Rules of Shōbu
-The rules can be found <a href='https://www.ultraboardgames.com/shobu/game-rules.php'>here</a>.
-
 # How the Game Works
 
 <ul>
-  <li>Click <a href='https://brbavar.github.io/shobu/'>here</a> to play!</li>
+  <li>The rules of Shōbu are explained <a href='https://www.ultraboardgames.com/shobu/game-rules.php'>here</a>.</li>
+  <li>Once you understand the rules, <a href='https://brbavar.github.io/shobu/'>click</a> to start playing.</li>
   <li>For the time being, you can only play against someone sitting next to you. There are no CPU or online opponents.</li>
 </ul>
 
