@@ -22,5 +22,5 @@ npm start
 ```
 
   </li>
-  <li>If the app doesn't appear automatically, visit <a href='http://localhost:3000'>this address</a> in your browser of choice.</li>
+  <li>If the app doesn't open automatically, visit <a href='http://localhost:3000'>this address</a> in your browser of choice.</li>
 </ol>
