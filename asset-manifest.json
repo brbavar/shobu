@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/shobu/static/css/main.6f6630c0.css",
+    "main.js": "/shobu/static/js/main.ba2e9681.js",
+    "index.html": "/shobu/index.html",
+    "main.6f6630c0.css.map": "/shobu/static/css/main.6f6630c0.css.map",
+    "main.ba2e9681.js.map": "/shobu/static/js/main.ba2e9681.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f6630c0.css",
+    "static/js/main.ba2e9681.js"
+  ]
+}
