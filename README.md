@@ -1,6 +1,10 @@
 # Rules of Shōbu
 The rules can be found <a href='https://www.ultraboardgames.com/shobu/game-rules.php'>here</a>.
 
+# How the Game Works
+
+For the time being, you can only play with someone sitting next to you. There are no CPU or online opponents.
+
 # How to Play Offline
 If you'd like to download the app to play offline, follow these instructions. 
 
