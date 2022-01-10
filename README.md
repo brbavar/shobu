@@ -11,7 +11,7 @@ The rules can be found <a href='https://www.ultraboardgames.com/shobu/game-rules
 If you'd like to download the app to play offline, follow these instructions. 
 
 <ol>
-  <li><a href='https://nodejs.dev/learn/how-to-install-nodejs' rel="noopener noreferrer nofollow" target="_blank">Install</a> a recent version of Node.js if you haven't yet.</li> 
+  <li><a href='https://nodejs.dev/learn/how-to-install-nodejs'>Install</a> a recent version of Node.js if you haven't yet.</li> 
   <li>Navigate to the directory where you want to store the Shōbu app.</li>
   <li>Run:
     <p></p>
@@ -28,5 +28,5 @@ npm start
 ```
 
   </li>
-  <li>If the app doesn't open automatically, visit <a href='http://localhost:3000' rel="noopener noreferrer nofollow" target="_blank">this address</a> in your browser of choice.</li>
+  <li>If the app doesn't open automatically, visit <a href='http://localhost:3000'>this address</a> in your browser of choice.</li>
 </ol>
