@@ -1,0 +1,461 @@
+body {
+    font: 14px 'Century Gothic', Futura, sans-serif;
+    background-image: linear-gradient(20deg,rgb(129, 76, 6),rgb(243, 144, 14));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden
+}
+
+ol, ul {
+    padding-left: 30px
+}
+
+.whole {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    min-width: 100vw
+}
+
+.inWhole {
+    border-radius: 40px;
+    background-image: linear-gradient(to right,rgba(255, 255, 255, .2),rgba(255, 255, 255, .7));
+    background-size: 500%;
+    background-position: left;
+    padding: 100px;
+    box-shadow: 2px 2px 30px transparent;
+    transition: background-position 1s ease-in-out, box-shadow 1s ease-in-out, transform 1.1s ease-in-out, padding .5s ease-in-out
+}
+
+.inWhole:hover {
+    background-position: right;
+    box-shadow: 2px 2px 30px black
+}
+
+@media only screen and (max-width: 864px) {
+    .inWhole {
+        transform: scale(.6) translateX(calc(8vw - 220px));
+    }
+}
+
+@media only screen and (max-width: 609px) {
+    .inWhole {
+        padding: 40px;
+    }
+}
+
+.grid {
+    display: grid; 
+    grid-template-columns: repeat(2,300px);
+    row-gap: 60px;
+    column-gap: 20px;
+    margin-left: 13%
+}
+
+.board-row:after {
+    clear: both;
+    content: '';
+    display: table
+}
+
+.status {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 3em;
+    margin-left: -13%;
+    white-space: pre;
+    position: relative
+}
+
+.statusObj {
+    border-radius: 15px;
+    background-image: linear-gradient(20deg,rgb(187, 124, 41),rgb(223, 103, 60));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute
+}
+
+.board1 :nth-child(1) :nth-child(1), .board2 :nth-child(1) :nth-child(1), 
+.board3 :nth-child(1) :nth-child(1), .board4 :nth-child(1) :nth-child(1) {
+    border-top-left-radius: 15px
+}
+
+.board1 :nth-child(1) :nth-child(4), .board2 :nth-child(1) :nth-child(4), 
+.board3 :nth-child(1) :nth-child(4), .board4 :nth-child(1) :nth-child(4) {
+    border-top-right-radius: 15px
+}
+
+.board1 :nth-child(4) :nth-child(1), .board2 :nth-child(4) :nth-child(1), 
+.board3 :nth-child(4) :nth-child(1), .board4 :nth-child(4) :nth-child(1) {
+    border-bottom-left-radius: 15px
+}
+
+.board1 :nth-child(4) :nth-child(4), .board2 :nth-child(4) :nth-child(4), 
+.board3 :nth-child(4) :nth-child(4), .board4 :nth-child(4) :nth-child(4) {
+    border-bottom-right-radius: 15px
+}
+
+.board1 .square, .board4 .square {
+    background: rgb(214, 154, 98)
+}
+
+.board2 .square, .board3 .square {
+    background: rgb(102, 52, 5)
+}
+
+.moveNorthOne {
+    animation: moveNorthOne .5s
+}
+
+.moveNorthWestOne {
+    animation: moveNorthWestOne .70710678118s
+}
+
+.moveNorthEastOne {
+    animation: moveNorthEastOne .70710678118s
+}
+
+.moveNorthTwo {
+    animation: moveNorthTwo 1s
+}
+
+.moveNorthWestTwo {
+    animation: moveNorthWestTwo 1.41421356237s
+}
+    
+.moveNorthEastTwo {
+    animation: moveNorthEastTwo 1.41421356237s
+}
+
+.moveSouthOne {
+    animation: moveSouthOne .5s
+}
+
+.moveSouthWestOne {
+    animation: moveSouthWestOne .70710678118s
+}
+
+.moveSouthEastOne {
+    animation: moveSouthEastOne .70710678118s
+}
+
+.moveSouthTwo {
+    animation: moveSouthTwo 1s
+}
+
+.moveSouthWestTwo {
+    animation: moveSouthWestTwo 1.41421356237s
+}
+    
+.moveSouthEastTwo {
+    animation: moveSouthEastTwo 1.41421356237s
+}
+
+.moveWestOne {
+    animation: moveWestOne .5s
+}
+
+.moveWestTwo {
+    animation: moveWestTwo 1s
+}
+
+.moveEastOne {
+    animation: moveEastOne .5s
+}
+
+.moveEastTwo {
+    animation: moveEastTwo 1s
+}
+
+@keyframes moveNorthOne {
+    from {
+        transform: translateY(30px)
+    }
+}
+
+@keyframes moveNorthWestOne {
+    from {
+        transform: translate(30px, 30px)
+    }
+}
+
+@keyframes moveNorthEastOne {
+    from {
+        transform: translate(-30px, 30px)
+    }
+}
+
+@keyframes moveNorthTwo {
+    from {
+        transform: translateY(60px)
+    }
+}
+
+@keyframes moveNorthWestTwo {
+    from {
+        transform: translate(60px, 60px)
+    }
+}
+
+@keyframes moveNorthEastTwo {
+    from {
+        transform: translate(-60px, 60px)
+    }
+}
+
+@keyframes moveSouthOne {
+    from {
+        transform: translateY(-30px)
+    }
+}
+
+@keyframes moveSouthWestOne {
+    from {
+        transform: translate(30px, -30px)
+    }
+}
+
+@keyframes moveSouthEastOne {
+    from {
+        transform: translate(-30px, -30px)
+    }
+}
+
+@keyframes moveSouthTwo {
+    from {
+        transform: translateY(-60px)
+    }
+}
+
+@keyframes moveSouthWestTwo {
+    from {
+        transform: translate(60px, -60px)
+    }
+}
+
+@keyframes moveSouthEastTwo {
+    from {
+        transform: translate(-60px, -60px)
+    }
+}
+
+@keyframes moveWestOne {
+    from {
+        transform: translateX(30px)
+    }
+}
+
+@keyframes moveWestTwo {
+    from {
+        transform: translateX(60px)
+    }
+}
+
+@keyframes moveEastOne {
+    from {
+        transform: translateX(-30px)
+    }
+}
+
+@keyframes moveEastTwo {
+    from {
+        transform: translateX(-60px)
+    }
+}
+
+.pushedNorthOne {
+    animation: pushedNorthOne .5s
+}
+
+.pushedNorthWestOne {
+    animation: pushedNorthWestOne .70710678118s
+}
+
+.pushedNorthEastOne {
+    animation: pushedNorthEastOne .70710678118s
+}
+
+.pushedNorthTwo {
+    animation: pushedNorthTwo 1s
+}
+
+.pushedNorthWestTwo {
+    animation: pushedNorthWestTwo 1.41421356237s
+}
+    
+.pushedNorthEastTwo {
+    animation: pushedNorthEastTwo 1.41421356237s
+}
+
+.pushedSouthOne {
+    animation: pushedSouthOne .5s
+}
+
+.pushedSouthWestOne {
+    animation: pushedSouthWestOne .70710678118s
+}
+
+.pushedSouthEastOne {
+    animation: pushedSouthEastOne .70710678118s
+}
+
+.pushedSouthTwo {
+    animation: pushedSouthTwo 1s
+}
+
+.pushedSouthWestTwo {
+    animation: pushedSouthWestTwo 1.41421356237s
+}
+    
+.pushedSouthEastTwo {
+    animation: pushedSouthEastTwo 1.41421356237s
+}
+
+.pushedWestOne {
+    animation: pushedWestOne .5s
+}
+
+.pushedWestTwo {
+    animation: pushedWestTwo 1s
+}
+
+.pushedEastOne {
+    animation: pushedEastOne .5s
+}
+
+.pushedEastTwo {
+    animation: pushedEastTwo 1s
+}
+
+@keyframes pushedNorthOne {
+    from {
+        transform: translateY(30px)
+    }
+}
+
+@keyframes pushedNorthWestOne {
+    from {
+        transform: translate(30px, 30px)
+    }
+}
+
+@keyframes pushedNorthEastOne {
+    from {
+        transform: translate(-30px, 30px)
+    }
+}
+
+@keyframes pushedNorthTwo {
+    from {
+        transform: translateY(60px)
+    }
+}
+
+@keyframes pushedNorthWestTwo {
+    from {
+        transform: translate(60px, 60px)
+    }
+}
+
+@keyframes pushedNorthEastTwo {
+    from {
+        transform: translate(-60px, 60px)
+    }
+}
+
+@keyframes pushedSouthOne {
+    from {
+        transform: translateY(-30px)
+    }
+}
+
+@keyframes pushedSouthWestOne {
+    from {
+        transform: translate(30px, -30px)
+    }
+}
+
+@keyframes pushedSouthEastOne {
+    from {
+        transform: translate(-30px, -30px)
+    }
+}
+
+@keyframes pushedSouthTwo {
+    from {
+        transform: translateY(-60px)
+    }
+}
+
+@keyframes pushedSouthWestTwo {
+    from {
+        transform: translate(60px, -60px)
+    }
+}
+
+@keyframes pushedSouthEastTwo {
+    from {
+        transform: translate(-60px, -60px)
+    }
+}
+
+@keyframes pushedWestOne {
+    from {
+        transform: translateX(30px)
+    }
+}
+
+@keyframes pushedWestTwo {
+    from {
+        transform: translateX(60px)
+    }
+}
+
+@keyframes pushedEastOne {
+    from {
+        transform: translateX(-30px)
+    }
+}
+
+@keyframes pushedEastTwo {
+    from {
+        transform: translateX(-60px)
+    }
+}
+
+.square {
+    border: 1px solid black;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 34px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 34px
+}
+
+.square:focus {
+    outline: none
+}
+
+.kbd-navigation .square:focus {
+    background: #ddd
+}
+
+.game {
+    display: flex;
+    flex-direction: row
+}
+
+.game-info {
+    margin-left: 20px
+}
