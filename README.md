@@ -12,12 +12,12 @@ If you'd like to download the app to play offline, follow these instructions.
     
 ```
 npm install create-react-app
-npx create-react-app shobu
-rm shobu/src/*
-git clone https://github.com/brbavar/shobu-src.git
-mv shobu-src/* shobu/src
-rm -r shobu-src
-cd shobu/src
+npx create-react-app shobu-loc
+rm shobu-loc/src/*
+git clone https://github.com/brbavar/shobu.git
+mv shobu/* shobu-loc/src
+rm -r shobu
+cd shobu-loc/src
 npm start
 ```
 
