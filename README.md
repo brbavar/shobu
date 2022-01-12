@@ -23,7 +23,7 @@ rm shobu-loc/src/*
 git clone https://github.com/brbavar/shobu.git
 mv shobu/src/* shobu-loc/src
 rm -r shobu
-cd shobu-loc/src
+cd shobu-loc
 npm start
 ```
 
