@@ -4,7 +4,7 @@
   <li>Understand the rules? <a href='https://brbavar.github.io/shobu/'>Click</a> to <b><em>start playing!</em></b>
   </li>
   <li>For the time being, you can only play against someone sitting next to you. There are no CPU or online opponents.</li>
-  <li>To switch pieces in the middle of a move, re-click the piece you originally selected, which will deselect it. Then click the other piece.</li>
+  <li>If you select a piece but then decide you'd rather move another, re-click the piece you originally selected, which will deselect it. Then click the other piece.</li>
 </ul>
 
 # How to Play Offline
