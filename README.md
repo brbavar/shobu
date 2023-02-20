@@ -12,7 +12,7 @@ If you'd like to download the app on your computer to play offline, follow these
 
 <ol>
   <li><a href='https://nodejs.dev/en/learn/how-to-install-nodejs/'>Install</a> a recent version of Node.js if you haven't yet.</li> 
-  <li>On the command line, navigate to the directory where you want to store the Shōbu app.</li>
+  <li>On the command line, navigate to the directory where you want to keep the Shōbu app.</li>
   <li>Run:
     <p></p>
     
